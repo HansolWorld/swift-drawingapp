@@ -34,6 +34,6 @@ class Rectangle {
 
 extension Rectangle: CustomStringConvertible {
     var description: String{
-        return "(\(id)), X:\(x), Y:\(y), W\(w), H\(h), R:\(r), G:\(g), B:\(b), Alpha:\(alpha)"
+        return "id: (\(id)), X:\(x), Y:\(y), W\(w), H\(h), R:\(r), G:\(g), B:\(b), Alpha:\(alpha)"
     }
 }
