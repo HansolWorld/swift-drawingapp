@@ -9,7 +9,7 @@ import Foundation
 
 
 struct Id {
-    let id: String
+    private let id: String
     
     init() {
         let character: String = "abcdefghijklmnopqrstuvwxyz"
