@@ -9,15 +9,15 @@ import Foundation
 
 
 struct Color {
-    let r: Int
-    let g: Int
-    let b: Int
-    let alpha: Int
+    let red: Int
+    let green: Int
+    let blue: Int
     
-    init(r: Int, g: Int, b:Int, alpha: Int) {
-        self.r = r
-        self.g = g
-        self.b = b
-        self.alpha = alpha
+    init?(red: Int, green: Int, blue: Int) {
+        if red > 255 || green > 255 || blue > 255 {return nil}
+        
+        self.red = red
+        self.green = green
+        self.blue = blue
     }
 }
