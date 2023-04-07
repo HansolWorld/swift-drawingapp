@@ -14,6 +14,11 @@
 		FF98DB1629D1C35C0028FD2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF98DB1429D1C35C0028FD2A /* Main.storyboard */; };
 		FF98DB1829D1C35D0028FD2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF98DB1729D1C35D0028FD2A /* Assets.xcassets */; };
 		FF98DB1B29D1C35D0028FD2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF98DB1929D1C35D0028FD2A /* LaunchScreen.storyboard */; };
+		FFF2BC9029DF90E6002D73C5 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC8F29DF90E6002D73C5 /* Position.swift */; };
+		FFF2BC9229DF90EE002D73C5 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC9129DF90EE002D73C5 /* Size.swift */; };
+		FFF2BC9429DF90F6002D73C5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC9329DF90F6002D73C5 /* Color.swift */; };
+		FFF63DC829DD7E4A007668A5 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF63DC729DD7E4A007668A5 /* Factory.swift */; };
+		FFF63DCA29DD7E87007668A5 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF63DC929DD7E87007668A5 /* Id.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		FF98DB1729D1C35D0028FD2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF98DB1A29D1C35D0028FD2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF98DB1C29D1C35D0028FD2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFF2BC8F29DF90E6002D73C5 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
+		FFF2BC9129DF90EE002D73C5 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
+		FFF2BC9329DF90F6002D73C5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FFF63DC729DD7E4A007668A5 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
+		FFF63DC929DD7E87007668A5 /* Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,13 +71,26 @@
 				FF98DB0E29D1C35C0028FD2A /* AppDelegate.swift */,
 				FF98DB1029D1C35C0028FD2A /* SceneDelegate.swift */,
 				FF98DB1229D1C35C0028FD2A /* ViewController.swift */,
+				FFF63DC729DD7E4A007668A5 /* Factory.swift */,
 				FF98DB1429D1C35C0028FD2A /* Main.storyboard */,
-				FF71FFB329DCF4090075624F /* Rectangle.swift */,
+				FFF2BC9529DF9152002D73C5 /* Rectangle */,
 				FF98DB1729D1C35D0028FD2A /* Assets.xcassets */,
 				FF98DB1929D1C35D0028FD2A /* LaunchScreen.storyboard */,
 				FF98DB1C29D1C35D0028FD2A /* Info.plist */,
 			);
 			path = DrawingApp;
+			sourceTree = "<group>";
+		};
+		FFF2BC9529DF9152002D73C5 /* Rectangle */ = {
+			isa = PBXGroup;
+			children = (
+				FF71FFB329DCF4090075624F /* Rectangle.swift */,
+				FFF2BC8F29DF90E6002D73C5 /* Position.swift */,
+				FFF63DC929DD7E87007668A5 /* Id.swift */,
+				FFF2BC9129DF90EE002D73C5 /* Size.swift */,
+				FFF2BC9329DF90F6002D73C5 /* Color.swift */,
+			);
+			path = Rectangle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +164,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF2BC9229DF90EE002D73C5 /* Size.swift in Sources */,
+				FFF2BC9029DF90E6002D73C5 /* Position.swift in Sources */,
 				FF98DB1329D1C35C0028FD2A /* ViewController.swift in Sources */,
 				FF98DB0F29D1C35C0028FD2A /* AppDelegate.swift in Sources */,
+				FFF63DCA29DD7E87007668A5 /* Id.swift in Sources */,
 				FF98DB1129D1C35C0028FD2A /* SceneDelegate.swift in Sources */,
 				FF71FFB429DCF4090075624F /* Rectangle.swift in Sources */,
+				FFF63DC829DD7E4A007668A5 /* Factory.swift in Sources */,
+				FFF2BC9429DF90F6002D73C5 /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
