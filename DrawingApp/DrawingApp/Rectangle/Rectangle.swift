@@ -25,6 +25,6 @@ class Rectangle {
 
 extension Rectangle: CustomStringConvertible {
     var description: String{
-        return "id: (\(id)), X:\(position.x), Y:\(position.y), W\(size.width), H\(size.heigh), R:\(color.r), G:\(color.g), B:\(color.b), Alpha:\(color.alpha)"
+        return "id: (\(id)), X:\(position.x), Y:\(position.y), W\(size.width), H\(size.heigh), R:\(color.red), G:\(color.green), B:\(color.blue), Alpha:\(color.alpha)"
     }
 }

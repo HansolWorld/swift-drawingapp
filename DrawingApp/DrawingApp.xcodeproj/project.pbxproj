@@ -17,6 +17,7 @@
 		FFF2BC9029DF90E6002D73C5 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC8F29DF90E6002D73C5 /* Position.swift */; };
 		FFF2BC9229DF90EE002D73C5 /* Size.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC9129DF90EE002D73C5 /* Size.swift */; };
 		FFF2BC9429DF90F6002D73C5 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC9329DF90F6002D73C5 /* Color.swift */; };
+		FFF2BC9729DFA9F0002D73C5 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2BC9629DFA9F0002D73C5 /* Plane.swift */; };
 		FFF63DC829DD7E4A007668A5 /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF63DC729DD7E4A007668A5 /* Factory.swift */; };
 		FFF63DCA29DD7E87007668A5 /* Id.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF63DC929DD7E87007668A5 /* Id.swift */; };
 /* End PBXBuildFile section */
@@ -34,6 +35,7 @@
 		FFF2BC8F29DF90E6002D73C5 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		FFF2BC9129DF90EE002D73C5 /* Size.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Size.swift; sourceTree = "<group>"; };
 		FFF2BC9329DF90F6002D73C5 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		FFF2BC9629DFA9F0002D73C5 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 		FFF63DC729DD7E4A007668A5 /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		FFF63DC929DD7E87007668A5 /* Id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Id.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				FF98DB1029D1C35C0028FD2A /* SceneDelegate.swift */,
 				FF98DB1229D1C35C0028FD2A /* ViewController.swift */,
 				FFF63DC729DD7E4A007668A5 /* Factory.swift */,
+				FFF2BC9629DFA9F0002D73C5 /* Plane.swift */,
 				FF98DB1429D1C35C0028FD2A /* Main.storyboard */,
 				FFF2BC9529DF9152002D73C5 /* Rectangle */,
 				FF98DB1729D1C35D0028FD2A /* Assets.xcassets */,
@@ -166,6 +169,7 @@
 			files = (
 				FFF2BC9229DF90EE002D73C5 /* Size.swift in Sources */,
 				FFF2BC9029DF90E6002D73C5 /* Position.swift in Sources */,
+				FFF2BC9729DFA9F0002D73C5 /* Plane.swift in Sources */,
 				FF98DB1329D1C35C0028FD2A /* ViewController.swift in Sources */,
 				FF98DB0F29D1C35C0028FD2A /* AppDelegate.swift in Sources */,
 				FFF63DCA29DD7E87007668A5 /* Id.swift in Sources */,

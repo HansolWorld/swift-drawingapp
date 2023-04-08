@@ -30,9 +30,11 @@ class Factory {
         let b = Int.random(in: 0...255)
         let alpha = Int.random(in: 0...10)
         
-        guard let color = Color(red: r, green: g, blue: b, alpha: alpha) else {return randomColor()}
-        
-        return color
+        if let color = Color(red: r, green: g, blue: b, alpha: alpha) {
+            return color
+        }
+        else {
+            return randomColor()
+        }
     }
-    
 }
